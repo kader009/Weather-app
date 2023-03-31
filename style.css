@@ -1,0 +1,90 @@
+*, *::before, ::after{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html:focus{
+  scroll-behavior: smooth;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  background: rgba(22, 130, 237, 0.789);
+  margin: 0;
+}
+#main{
+  background: rgba(3, 228, 248, 0.1);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(50px);
+  -webkit-backdrop-filter: blur(50px);
+  border: 1px solid rgba(111, 197, 237, 0.3);
+  width: 100%;
+  max-width: 420px;
+  text-align: center;
+  padding: 2rem;
+  margin: 1rem;
+}
+input{
+  outline: none;
+  border: none;
+  width: 160px;
+  height: 35px;
+  border-radius: 30px;
+  padding-left: 8px;
+}
+::placeholder{
+  margin: 30px;
+  padding: 10px;
+}
+button{
+  padding: 10px;
+  font-size: 13px;
+  border-radius: 50%;
+  outline: none;
+  border: none;
+  justify-content: center;
+  background: #fff;
+}
+.showdata{
+  margin-top:20px ;
+}
+.two{
+  display: flex;
+  justify-content: center;
+  gap: 0px;
+}
+.two .icon{
+  margin-right: 5px;
+}
+#description img{
+  width: 6rem;
+}
+.detail{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+.detail img{
+  width: 2rem;
+}
+.location h1, h2{
+  color: #fff;
+  font-size: 19px;
+}
+.two .icon i{
+  color: #fff;
+}
+#temp{
+  color: #fff;
+  font-size: 22px;
+}
+.col p{
+  color: #fff;
+  font-size: 17px;
+}
