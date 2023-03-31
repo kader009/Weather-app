@@ -21,11 +21,8 @@
 
     // epmty input value 
     input.value = ''
-
   })
 
-  
-  
   
   function UpdateUi(data) {
 
@@ -34,10 +31,6 @@
     document.getElementById('temp').innerHTML = Math.round(data.main.temp) + ' °C'
     document.getElementById('wind').innerHTML = data.wind.speed + ' km/h'
     document.getElementById('humidity').innerHTML = data.main.humidity + '%';
-
-    // if(data.sys.country == ''){
-    //   UpdateUi('wrong city name')
-    // }
 
 
 
