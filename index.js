@@ -11,7 +11,6 @@
     .then(res => res.json())
     .then(data =>{
       UpdateUi(data)
-      console.log(data);
     })
 
     // show alert for impty input value
@@ -19,6 +18,9 @@
       alert("Type a right city name please...")
       return UpdateUi(data);
     }
+
+    // epmty input value 
+    input.value = ''
 
   })
 
